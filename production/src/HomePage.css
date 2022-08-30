@@ -1,0 +1,54 @@
+.HomePage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.HomePage-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 32px 0px;
+}
+
+.HomePage span {
+  margin-top: 32px;
+  font-size: 14px;
+}
+
+.AngledImageBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 64px 32px;
+  background: white;
+  min-height: 50vh;
+  width: 100%;
+  max-width: 1000px;
+  clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
+}
+
+.AngledImageBox h2 {
+  margin: 0px;
+  margin-bottom: 16px;
+}
+
+.AngledImageBox .image_row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.AngledImageBox .image_row img {
+  width: 50%;
+  padding: 16px;
+  box-sizing: border-box;
+}

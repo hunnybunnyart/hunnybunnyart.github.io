@@ -1,0 +1,13 @@
+.HeaderInfo {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.HeaderInfo-logo {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    pointer-events: none;
+}
+
