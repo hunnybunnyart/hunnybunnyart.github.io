@@ -5,7 +5,7 @@ const HeaderInfo = () => {
     return (
         <div className="HeaderInfo">
             <img src={logo} className="HeaderInfo-logo" alt="logo" />
-            <p><b>Art, Apparel, and Accessories</b></p>
+            <p><b>Art, Accessories, and Apparel</b></p>
 
         </div>
     )

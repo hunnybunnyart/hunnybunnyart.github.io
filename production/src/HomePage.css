@@ -35,20 +35,68 @@
   clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
 }
 
+.AngledImageBox.reverse {
+  clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
+}
+
+.AngledImageBox.sharper-corners {
+  clip-path: polygon(0 0, 100% 8%, 100% 92%, 0 100%);
+}
+
+.AngledImageBox.reverse.sharper-corners {
+  clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 92%);
+}
+
 .AngledImageBox h2 {
   margin: 0px;
+  
+}
+
+.AngledImageBox  p {
+  font-size: 16px;
   margin-bottom: 16px;
+  line-height: 1.5rem;
 }
 
 .AngledImageBox .image_row {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .AngledImageBox .image_row img {
-  width: 50%;
+  width: 375px;
+  max-width: 50%;
   padding: 16px;
   box-sizing: border-box;
+}
+
+.AngledImageBox .ChangePageButton {
+  margin-top: 24px;
+}
+
+@media only screen and (max-width: 650px) {
+  .AngledImageBox {
+    padding: 64px 16px;
+    clip-path: polygon(0 0, 100% 2%, 100% 98%, 0 100%);
+  }
+  .AngledImageBox .image_row {
+    flex-direction: column;
+  }
+  .AngledImageBox .image_row img {
+    width: 500px;
+    max-width: 100%;
+  }
+
+  .AngledImageBox.reverse.sharper-corners {
+    clip-path: polygon(0 6%, 100% 0, 100% 100%, 0 94%);
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .AngledImageBox .image_row img {
+    padding: 0px;
+    margin-bottom: 8px;
+  }
 }

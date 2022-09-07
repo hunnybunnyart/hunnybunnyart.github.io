@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.580708d2.css",
-    "main.js": "/static/js/main.31d87e72.js",
+    "main.css": "/static/css/main.558fcc30.css",
+    "main.js": "/static/js/main.be8642e9.js",
     "static/media/raichu.jpg": "/static/media/raichu.3f60766aaa66e1496b0d.jpg",
+    "static/media/shirt.jpg": "/static/media/shirt.160110e30cfee3952e31.jpg",
+    "static/media/buttons.jpg": "/static/media/buttons.29f9a8a7c182d2277e47.jpg",
     "static/media/typhlosion.jpg": "/static/media/typhlosion.6744ed032b738250a695.jpg",
     "static/media/ponyta.jpg": "/static/media/ponyta.6b97fa84147fbf61028e.jpg",
+    "static/media/keychains.jpg": "/static/media/keychains.484a31c8890629630185.jpg",
     "static/media/pikachu.jpg": "/static/media/pikachu.2ecdf9a99786fbc123e1.jpg",
+    "static/media/stickers.jpg": "/static/media/stickers.7180edb3bde969d587fa.jpg",
+    "static/media/lightbox.jpg": "/static/media/lightbox.31c54f3f79c24b01d99b.jpg",
     "static/media/logo.jpg": "/static/media/logo.251f04199e570c0b5a51.jpg",
     "index.html": "/index.html",
-    "main.580708d2.css.map": "/static/css/main.580708d2.css.map",
-    "main.31d87e72.js.map": "/static/js/main.31d87e72.js.map"
+    "main.558fcc30.css.map": "/static/css/main.558fcc30.css.map",
+    "main.be8642e9.js.map": "/static/js/main.be8642e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.580708d2.css",
-    "static/js/main.31d87e72.js"
+    "static/css/main.558fcc30.css",
+    "static/js/main.be8642e9.js"
   ]
 }

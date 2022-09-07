@@ -2,15 +2,15 @@ import './HomePage.css';
 
 import HomePage from './HomePage';
 import ExamplePage from './ExamplePage';
-import ContactPage from './ContactPage';
+import PricesPage from './PricesPage';
 
 const PageLoader = ({currentPage, setCurrentPage}) => {
     const loadPage = (page) => {
         if(page == 'examples') {
             return <ExamplePage/>
         }
-        if(page == 'contact') {
-            return <ContactPage/>
+        if(page == 'prices') {
+            return <PricesPage/>
         }
         return <HomePage 
         setCurrentPage={setCurrentPage}/>

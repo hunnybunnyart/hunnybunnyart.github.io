@@ -1,10 +1,10 @@
 import './BottomNavigation.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHouse, faPalette, faComment } from '@fortawesome/free-solid-svg-icons'
+import { faHouse, faPalette, faCommentDollar } from '@fortawesome/free-solid-svg-icons'
 
 const house_icon = <FontAwesomeIcon icon={ faHouse } />;
 const paint_icon = <FontAwesomeIcon icon={ faPalette } />;
-const contact_icon = <FontAwesomeIcon icon={ faComment } />;
+const prices_icon = <FontAwesomeIcon icon={ faCommentDollar } />;
 
 const BottomNavigation = ({currentPage, setCurrentPage}) => {
     const isCurrentPage = (checkPage) => {
@@ -22,9 +22,9 @@ const BottomNavigation = ({currentPage, setCurrentPage}) => {
                     onClick={()=>setCurrentPage('examples')}
                 >{paint_icon}<br/>Examples</li>
                 <li 
-                    className={"BottomNavigation-li " + isCurrentPage('contact')}
-                    onClick={()=>setCurrentPage('contact')}
-                >{contact_icon}<br/>Contact</li>
+                    className={"BottomNavigation-li " + isCurrentPage('prices')}
+                    onClick={()=>setCurrentPage('prices')}
+                >{prices_icon}<br/>Prices</li>
             </ul>
         </nav>
     )
