@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e58a51fc.css",
-    "main.js": "/static/js/main.2bd9e4be.js",
+    "main.js": "/static/js/main.8f9e805d.js",
     "static/media/raichu.jpg": "/static/media/raichu.3f60766aaa66e1496b0d.jpg",
     "static/media/shirt.jpg": "/static/media/shirt.160110e30cfee3952e31.jpg",
     "static/media/buttons.jpg": "/static/media/buttons.29f9a8a7c182d2277e47.jpg",
@@ -14,10 +14,10 @@
     "static/media/logo.jpg": "/static/media/logo.251f04199e570c0b5a51.jpg",
     "index.html": "/index.html",
     "main.e58a51fc.css.map": "/static/css/main.e58a51fc.css.map",
-    "main.2bd9e4be.js.map": "/static/js/main.2bd9e4be.js.map"
+    "main.8f9e805d.js.map": "/static/js/main.8f9e805d.js.map"
   },
   "entrypoints": [
     "static/css/main.e58a51fc.css",
-    "static/js/main.2bd9e4be.js"
+    "static/js/main.8f9e805d.js"
   ]
 }
