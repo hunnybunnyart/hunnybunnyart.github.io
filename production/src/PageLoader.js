@@ -1,13 +1,13 @@
 import './HomePage.css';
 
 import HomePage from './HomePage';
-import ExamplePage from './ExamplePage';
+import ExamplesPage from './ExamplesPage';
 import PricesPage from './PricesPage';
 
 const PageLoader = ({currentPage, setCurrentPage}) => {
     const loadPage = (page) => {
         if(page == 'examples') {
-            return <ExamplePage/>
+            return <ExamplesPage/>
         }
         if(page == 'prices') {
             return <PricesPage/>

@@ -6,7 +6,7 @@ import HeaderInfo from './HeaderInfo';
 import PageLoader from './PageLoader';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('home');
+  const [currentPage, setCurrentPage] = useState('prices');
 
   return (
     <div className="App">

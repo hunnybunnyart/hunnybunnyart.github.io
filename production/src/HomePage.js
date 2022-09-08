@@ -1,4 +1,5 @@
 import './HomePage.css';
+import './SharedElements.css';
 
 import ChangePageButton from './components/ChangePageButton';
 
@@ -18,12 +19,14 @@ const HomePage = ({setCurrentPage}) => {
         <div className="HomePage">
 
         <span>Support Hunny Bunny by following me on social media.<br/><br/>It would be awesome if you could drop a few likes too, so the algorithm actually shows my art.</span>
-        <div className="HomePage-links">
-            <LinkButton 
+        
+        <center className="HomePage-primary-link">
+          <LinkButton 
                 label="Telegram"
-                link="https://www.instagram.com/bunniebunbunzzz/?hl=en"
+                link="https://t.me/BunnieBunnie"
             />
-        </div>
+        </center>
+            
         <div className="HomePage-links">
             <LinkButton 
                 label="Instagram"
@@ -38,7 +41,7 @@ const HomePage = ({setCurrentPage}) => {
                 link="https://twitter.com/bunniebunbunzzz"
             />
         </div>
-        <div className="AngledImageBox">
+        <div className="AngledBox">
             <h2>Custom Artwork</h2>
             <center><p>Digital illustrations, painted artwork, or even pencil and paper.<br/>Have any idea brought to life!</p></center>
             
@@ -56,7 +59,7 @@ const HomePage = ({setCurrentPage}) => {
                 changeTo="examples"
             />
         </div>
-        <div className="AngledImageBox reverse">
+        <div className="AngledBox reverse">
         <h2>Custom Accesories</h2>
         <center><p>Buttons, stickers, keychains, and more!<br/>I love coming up with new ways to wear and show off your favorite art.</p></center>
           <div className="image_row">
@@ -73,7 +76,7 @@ const HomePage = ({setCurrentPage}) => {
                 changeTo="prices"
             />
         </div>
-        <div className="AngledImageBox sharper-corners">
+        <div className="AngledBox sharper-corners">
         <h2>Custom Apparel</h2>
         <center><p>Have your logo or illustration printed and pressed onto a shirt!<br/>I'm always open to trying new things too, so message me if you have any ideas.</p></center>
         <div className="image_row">

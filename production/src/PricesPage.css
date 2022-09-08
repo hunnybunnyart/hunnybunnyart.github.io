@@ -1,0 +1,65 @@
+.PricesPage {
+  margin: 32px 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.PricesPage .AngledBox {
+  padding-bottom: 96px;
+}
+
+.PricesPage .AngledBox h2 {
+  margin-bottom: 32px;
+}
+
+.PricesPage-section {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  align-items: flex-start;
+}
+
+.PricesPage-section h3 {
+  text-align: right;
+  padding-right: 16px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 200px;
+  border-right: 4px solid #fa7dad;
+}
+
+.PricesPage-section ul {
+  width: 100%;
+  list-style: none;
+  padding-left: 16px;
+}
+
+.PricesPage-section ul li {
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 8px;
+}
+
+.PricesPage-service-price {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 650px) {
+  .PricesPage-service-label {
+    font-size: 12px;
+  }
+
+  .PricesPage-service-label-line {
+    font-size: 12px;
+  }
+
+  .PricesPage-section h3 {
+    max-width: 180px;
+  }
+}
